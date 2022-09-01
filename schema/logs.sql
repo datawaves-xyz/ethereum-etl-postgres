@@ -5,10 +5,7 @@ create table logs
     transaction_index bigint,
     address varchar(42),
     data text,
-    topic0 varchar(66),
-    topic1 varchar(66),
-    topic2 varchar(66),
-    topic3 varchar(66),
+    topics text,
     block_timestamp timestamp,
     block_number bigint,
     block_hash varchar(66)
